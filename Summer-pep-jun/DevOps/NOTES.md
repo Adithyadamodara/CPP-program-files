@@ -45,6 +45,8 @@ eg: icacls file.pem /grant:r "desktop-g1nnh6f\hp:(R)"
 3. icacls file.pem /inheritance:r
 
 to ssh:
-ssh -i "file.pem" ubuntu@public-ip.compute-1.amazonaws.com
+ssh -i "file.pem" ubuntu@ec2-public-ip.compute-1.amazonaws.com
+eg: ssh -i "file.pem" ubunutu@ec2-54-160-23-129.compute-1.amazon.aws.com
+username - ubuntu
 
-username - ubunutu
+
